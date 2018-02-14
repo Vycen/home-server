@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Light",
+    "location": "Room",
+    "button": "on/off",
+    "type": "dig",
+    "icon": "fa fa-lightbulb-o",
+    "value": false,
+    "status": false,
+    "lastUpdate": 0
+  },
+  {
+    "id": 2,
+    "name": "Light Detector",
+    "location": "Room",
+    "buttonType": "none",
+    "type": "dig",
+    "icon": "fa fa-lightbulb-o",
+    "value": false,
+    "status": false,
+    "lastUpdate": 0
+  }
+]

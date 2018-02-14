@@ -1,0 +1,31 @@
+{
+  "name": "home-server",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "rc-switch": "^1.6.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-fontawesome": "^1.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^1.0.17",
+    "redux": "^3.7.2",
+    "redux-socket.io": "^1.4.0",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "latest"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"PORT=3001 nodemon ./api/server.js\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.12.1"
+  }
+}
